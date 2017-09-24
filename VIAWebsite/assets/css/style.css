@@ -6,6 +6,10 @@ body {
   padding: 0px;
   margin: 0px;
 }
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
 .logo {
     float: none;
@@ -34,7 +38,19 @@ body {
 
 .nav ul li:hover {
   background-color: black;
+
+    
 }
+
+
+.thump-news-img {
+  padding: 15px;
+}
+.align-text{
+  text-align: justify;
+}   
+
+
 
 .image-area {
   background-image:url('../images/background.jpg');
@@ -66,7 +82,7 @@ body {
   font-size: 1.5rem;
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  
 }
 
 .single-service {
@@ -76,6 +92,8 @@ body {
 
 .single-service p {
   padding: 0px 16px;
+    text-align: center;
+    font-size: 1.2rem;
 }
 .wrapper {
 	min-height:100%;
