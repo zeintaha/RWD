@@ -44,7 +44,7 @@ a, a:visited, a:hover, a:active {
 
 
 .thump-news-img {
-  padding: 15px;
+  padding-right: 15px;
 }
 .align-text{
   text-align: justify;
@@ -85,6 +85,10 @@ a, a:visited, a:hover, a:active {
   
 }
 
+.red-text {
+color: darkred;
+}
+
 .single-service {
   text-align: center;
   margin-bottom: 32px;
@@ -92,8 +96,16 @@ a, a:visited, a:hover, a:active {
 
 .single-service p {
   padding: 0px 16px;
-    text-align: center;
-    font-size: 1.2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.black-small-text {
+ 
+  text-align: center;
+  font-size: 0.8rem;
+    color: black;
+   
 }
 .wrapper {
 	min-height:100%;
