@@ -45,7 +45,10 @@ a, a:visited, a:hover, a:active {
 
 .thump-news-img {
   padding-right: 15px;
+  float: left;
 }
+
+
 .align-text{
   text-align: justify;
 }   
