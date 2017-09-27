@@ -12,8 +12,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .logo {
-    float: none;
-    
+    float: none;   
 }
 
 .nav {
@@ -37,23 +36,17 @@ a, a:visited, a:hover, a:active {
 }
 
 .nav ul li:hover {
-  background-color: black;
-
-    
+  background-color: black; 
 }
-
 
 .thump-news-img {
   padding-right: 15px;
   float: left;
 }
 
-
 .align-text{
   text-align: justify;
 }   
-
-
 
 .image-area {
   background-image:url('../images/background.jpg');
@@ -137,8 +130,7 @@ color: darkred;
     float: left;  
     
 }
-    
-    
+       
   .nav ul {
     text-align: right;
   }
