@@ -16,7 +16,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .nav {
-  background-color: cadetblue;
+  background-color: #5F9EA0;
   color: white;
 }
 
@@ -30,9 +30,10 @@ a, a:visited, a:hover, a:active {
 .nav ul li {
   padding: 16px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: large;
   border-bottom: 1px solid black;
-  transition: background-color 0.2s;
+
+  
 }
 
 .nav ul li:hover {
@@ -52,7 +53,8 @@ a, a:visited, a:hover, a:active {
   background-image:url('../images/background.jpg');
   background-color:black;
   background-position: center center;
-  background-size: cover;
+background-size: cover;
+  
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -68,21 +70,22 @@ a, a:visited, a:hover, a:active {
   text-align: center;
   background-color: black;
   color: white;
-  font-size: 2.5rem;
-  opacity: 0.5;
+  font-size: xx-large;
+    opacity: 0.5;
+  
 
 }
 
 .intro-text {
   color: gray;
-  font-size: 1.5rem;
+  font-size: x-large;
   text-align: center;
   padding-top: 50px;
   
 }
 
 .red-text {
-color: darkred;
+color: #8B0000;
 }
 
 .single-service {
@@ -93,13 +96,13 @@ color: darkred;
 .single-service p {
   padding: 0px 16px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: large;
 }
 
 .black-small-text {
  
   text-align: center;
-  font-size: 0.8rem;
+  font-size: small;
     color: black;
    
 }
@@ -108,7 +111,7 @@ color: darkred;
 	position:relative;
 }
 .header {
-	background:cadetblue;
+	background:#5F9EA0;
 	padding:0px;
 }
 .content {
@@ -127,10 +130,9 @@ color: darkred;
 
 .iframe
 {
-   
     border:0;
-    width:300;
-    height:225
+    width:300px;
+    height:225px;
 }
 
 .map-iframe
@@ -138,11 +140,12 @@ color: darkred;
    
     border:0;
     width:100%;
-    height:300;
+    height:300px;
 }
 
 
-@media screen and (min-width: 700px) {
+
+    @media screen and (min-width: 700px) {
     
     .logo {
     float: left;  
