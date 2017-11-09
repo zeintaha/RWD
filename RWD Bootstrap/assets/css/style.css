@@ -1,0 +1,125 @@
+   
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      opacity: 0.9;
+
+  }
+
+.centered-container {
+  max-width: 1020px;
+  margin: 0px auto;
+  padding: 0px 16px;
+    
+}
+
+.align-text{
+  text-align: justify;
+}   
+
+.intro-text {
+
+  font-size: large;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+.thump-news-img {
+  padding-right: 15px;
+  float: left;
+}
+
+.thump-events-img {
+  padding-right: 15px;
+  float: left;
+}
+
+  .container {
+      padding: 80px 120px;
+  }
+
+
+  .contact {
+      padding: 40px 0px;
+  }
+
+    }
+    .custom-size {
+      font-size: 16px;
+    }    
+    
+    footer {
+      background-color: #ddd;
+      padding-top: 20px;
+      clear: both;
+      position: relative;
+    }
+
+.audio_volume_only {
+    width: 64px;
+  }
+    
+  .carousel-inner img {
+      width: 100%; 
+      margin: auto;
+      min-height:200px;
+      max-height: 925px;
+     
+  }
+
+.red-text {
+color: #8B0000;
+}
+
+.single-service {
+  text-align: center;
+  margin-bottom: 32px;
+filter: grayscale(10%);
+}
+
+.single-service p {
+  padding: 0px 16px;
+  text-align: center;
+  font-size: large;
+}
+
+.black-small-text {
+ 
+  text-align: center;
+  font-size: small;
+    color: black;
+   
+}
+
+
+    .moving-clouds {
+      background-image: url('../images/clouds.png');
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      width: 250.625em;
+      height: 31.75em;
+      animation: cloudLoop 80s linear infinite;
+      
+    }
+
+    @keyframes cloudLoop {
+      0% {
+
+        transform: translate3d(0, 0, 0);
+      }
+      100% {
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+      }
+}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+ 
