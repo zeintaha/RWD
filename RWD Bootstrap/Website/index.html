@@ -10,9 +10,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -20,16 +20,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Logo"/></a>
+      <a class="navbar-brand" href="#myPage"><img src="assets/images/logo.png" alt="Logo"/></a>
     </div>
     <div class="collapse navbar-collapse navbar-right" id="myNavbar">
       <ul class="nav navbar-nav custom-size">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="council.html">Council</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="contact.html">Contact us</a></li>
+        <li class="active"><a href="#myPage">Home</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#council">Council</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact us</a></li>
       </ul>
     </div>
   </div>
@@ -44,7 +44,7 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox"><div class="moving-clouds"> </div>
       <div class="item active">
         <img src="assets/images/img1.jpg" alt="Image">
         <div class="carousel-caption">
@@ -52,15 +52,13 @@
           <p>Find your inner peace.</p>
         </div>      
       </div>
-
       <div class="item">
         <img src="assets/images/img2.jpg" alt="Image">
         <div class="carousel-caption">
           <h3>Budha?</h3>
           <p>Never to late.</p>
         </div>      
-      </div>
-        
+      </div>  
       <div class="item">
         <img src="assets/images/img3.jpg" alt="Image">
         <div class="carousel-caption">
@@ -68,6 +66,7 @@
           <p>Future is more predicteble than you think</p>
         </div>      
       </div>
+        
     </div>
 
     <!-- Left and right controls -->
@@ -80,13 +79,115 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
-  
-<div class="container">    
-  <h3 class="text-center">News</h3><br>
+    
+<div><audio src="assets/audio/Mantra_Meditation.mp3" autoplay="true" loop="loop"  class="audio_volume_only" controls preload="auto"> </audio>
+</div>
+    
+<div class="container" id="about">    
+  <h2 class="text-center">About us</h2><br><br><br>
+  <div class="row">
+    <div class="col-md-12">
+          <div class="intro-text centered-container"><h3>Vipassanā ‐ Insight Awareness</h3><img class="thump-news-img" src="assets/images/about.jpg" alt="about" title="Water lilie"><p class="align-text">VIA is a center for spiritual events originally with a base in the Buddhist principles of meditation as an insight with awareness of what happens when it happens. Today events at VIA also include spiritual practices not directly related to any religion like dream interpretations, healing, astrology, reincarnation, karma, alternative health care and similar. VIA is a center for spiritual events originally with a base in the Buddhist principles of meditation as an insight with awareness of what happens when it happens. Today events at VIA also include spiritual practices not directly related to any religion like dream interpretations, healing, astrology, reincarnation, karma, alternative health care and similar.</p>
+
+          </div>
+            
+          <div class="intro-text centered-container"><h3>Future vision</h3><img class="thump-news-img" src="assets/images/vision.png" alt="vision" title="meditation" /><p class="align-text">Our vision for the future is the same as our view of the present. It’s to educate people on a more spiritual level, help to gain inner piece and to understand that everything in life is connected. To show people how meditation can help you get through hard times, how Buddhism can help you find inner piece and how astrology can show you connection you never believed before.</p>
+
+          </div>
+    </div>
+   
+  </div>
+</div><br>
+    
+<div class="container" id="council">    
+  <h2 class="text-center">Concil</h2>
+  <div class="row">
+    <div class="col-md-12">
+          <div class="intro-text  centered-container"> 
+            <div class="single-service col-md-6">
+              <img src="assets/images/team/taha.jpg" alt="team" title="Taha Alzein"/>
+                <div class="red-text">Taha Mohamed Alzein</div>
+                Board member
+                <p class="black-small-text">Incharge of Web Design</p>  
+                <a href="https://www.facebook.com/Tahha.Zien" target="_blank"><img src="assets/images/icons/team-fb.png" alt="fb-icon"/></a>
+                <a href="https://www.linkedin.com/in/tahazien/" target="_blank"><img src="assets/images/icons/team-lin.png" alt="linkedin-icon"/></a>
+            </div>
+              <div class="single-service col-md-6">
+              <img src="assets/images/team/oskars.jpg" alt="team" title="Oskars Arajs" />
+                <div class="red-text">Oskars Arajs</div>
+                Board member
+                <p class="black-small-text">Incharge of Web development</p>  
+                <a href="https://www.facebook.com/oskars.arajs.3" target="_blank"><img src="assets/images/icons/team-fb.png" alt="fb-icon"/></a>
+                <a href="https://www.linkedin.com/in/oskars-ar%C4%81js-2ba1b5149/" target="_blank"><img src="assets/images/icons/team-lin.png" alt="linkedin-icon"/></a>
+            </div>
+              <div class="single-service col-md-6">
+              <img src="assets/images/team/liviu.jpg" alt="team" title="Liviu Pascari" />
+                <div class="red-text">Liviu Pascari</div>
+                Board member
+                <p class="black-small-text">Incharge of new information</p>  
+                <a href="https://www.facebook.com/liviu.pascari" target="_blank"><img src="assets/images/icons/team-fb.png" alt="fb-icon"/></a>
+                <a href="https://www.linkedin.com/in/liviu-pascari-5ba848b8/" target="_blank"><img src="assets/images/icons/team-lin.png" alt="linkedin-icon"/></a>
+            </div>
+              <div class="single-service col-md-6">
+              <img src="assets/images/team/dragos.jpg" alt="team" title="Dragos Chirtoaca"/>
+                <div class="red-text">Dragos Chirtoaca</div>
+                Board member
+                <p class="black-small-text">Incharge of Web Design</p>  
+                <a href="https://www.facebook.com/dragos.chirtoaca" target="_blank"><img src="assets/images/icons/team-fb.png" alt="fb-icon"/></a>
+                <a href="https://www.linkedin.com/in/dragos-chirtoaca-1bb66a13b/" target="_blank"><img src="assets/images/icons/team-lin.png" alt="linkedin-icon"/></a>
+            </div>
+          </div>
+    </div>
+   
+  </div>
+</div><br>
+    
+<div class="container" id="events">  
+
+  <h2 class="text-center">Events</h2>
+  <div class="row">
+<div class="intro-text centered-container"><h3>Oct. 6-12 Int'l Fall Festival - Germany
+</h3><img class="thump-events-img" src="assets/images/fall.png" alt="event" title="Int'l Festival" /><p class="align-text">At this festival, Gen-la Dekyong will explain the essential practices of training the mind (Lojong) based on Venerable Geshe Kelsang Gyatso Rinpoche’s book Universal Compassion. The practices of training the mind are exceptionally powerful methods for overcoming our delusions, especially our self-cherishing, and for gaining deep realizations of conventional and ultimate bodhichitta. In this way, we can attain the real meaning of our human life – enlightenment.
+</p>
+
+          </div>
+            
+          <div class="intro-text centered-container"><h3>Dec. 1-3 Southwest Dharma Celebration in New Mexico
+</h3><img class="thump-events-img" src="assets/images/dharma.png" alt="event" title="Dharma Celebration" /><p class="align-text">Inspired by our Founder, Venerable Geshe Kelsang Gyatso, every year practitioners from the southwest US and beyond gather together for this special evenwonderft. The celebration will be a ul opportunity to receive teachings from our Western US National Spiritual Director, Gen Kelsang Rigpa, and to meet with spiritual friends.  Enjoy the company of like-minded people, and empower your spiritual life at this special weekend event.
+</p>
+              </div>
+            
+          <div class="intro-text centered-container"><h3>Nov. 3-5 The Midwest Dharma 
+</h3><img class="thump-events-img" src="assets/images/midwest.png" alt="event" title="Midwest Dharma" /><p class="align-text">This celebration is a very special annual event that connects practitioners around the Midwest. This relaxing weekend of practical teachings, guided meditations, and empowerment nourishes our spiritual life and increases our capacity for boundless inner peace and happiness. If you are new to Buddhism, the Celebration weekend provides a perfect opportunity to gain a deeper understanding and experience of Buddha’s teachings.
+
+</p>
+
+          </div>
+  </div>
+</div><br>
+    
+<div class="container" id="news">  
+
+  <h2 class="text-center">News</h2><br>
   <div class="row">
     <div class="col-sm-6 text-center">
         <a href="news1.html"><h4 class="text-center">How to meditate?</h4></a>
         <a href="news1.html"><img src="assets/images/news/news11.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+        <p class="text-justify">With the hectic pace and demands of modern life, many people feel stressed and over-worked. It often feels like there is just not enough time in the day to get everything done. A simple ten or fifteen minute breathing meditation as explained below can help you to overcome your stress and find some inner peace and balance... <a href="news1.html"><em><ins>click to see more</ins></em></a></p>
+    </div>
+    <div class="col-sm-6 text-center"> 
+        <a href="news2.html"><h4 class="text-center">Getting closer to the Buddha</h4></a>
+        <a href="news2.html"><img src="assets/images/news/news21.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+        <p class="text-justify">Buddhist practitioners light and burn incense sticks. They raise the burning sticks above the head and bow to the statues of      Buddha. Then they place their sticks vertically on burners from which smoke wafts.<br>
+
+                    Incense burning is a common Chinese religious ritual in Chinese Buddhism as well as Chinese ancestor worship and Taoism... <a href="news1.html"><em><ins>click to see more</ins></em></a></p>    
+    </div>
+  </div>
+    
+      <div class="row">
+    <div class="col-sm-6 text-center">
+        <a href="news1.html"><h4 class="text-center">How to meditate?</h4></a>
+        <a href="news1.html"><img src="assets/images/news/news31.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
         <p class="text-justify">With the hectic pace and demands of modern life, many people feel stressed and over-worked. It often feels like there is just not enough time in the day to get everything done. Our stress and tiredness make us unhappy, impatient and frustrated. It can even affect our health. We are often so busy we feel there is no time to stop and meditate! But meditation actually gives you more time by making your mind calmer and more focused. A simple ten or fifteen minute breathing meditation as explained below can help you to overcome your stress and find some inner peace and balance... <a href="news1.html"><em><ins>click to see more</ins></em></a></p>
     </div>
     <div class="col-sm-6 text-center"> 
@@ -99,29 +200,52 @@
   </div>
 </div><br>
     
-<div class="container">    
-  <h3 class="text-center">Recommended Videos</h3><br>
-  <div class="row">
-    <div class="col-sm-6 text-center">
-        <iframe src="https://www.youtube.com/embed/1UyJG2b8FMc"  style="iframe" allowfullscreen></iframe><p class="text-justify">For every beginner the hardest is the first step. This tutorial video will help you take the leap of faith.</p>
-    </div>
-    <div class="col-sm-6 text-center"> 
-        <iframe src="https://www.youtube.com/embed/5GSeWdjyr1c" style="iframe5" allowfullscreen></iframe><p class="text-justify">This video has a more face-to-face approach which is preferred for people that find human (in this case virtual) contact more preferable.</p>    
-    </div>
-  </div>
-</div><br>
+
     
-<div class="container">    
-  <h3 class="text-center">Upcoming Events</h3><br>
+<div class="container" id="contact">    
+  <h2 class="text-center">Contact us</h2><br>
   <div class="row">
-    <div class="col-xs-6 col-sm-6 text-center">
-        <img src="assets/images/3.jpg" class="img-responsive" style="width:100%" alt="Image">
-        <p class="text-justify">It often feels like there is just not enough time in the day to get everything done. Our stress and tiredness make us unhappy. Learn how to deal with everyday troubles with the help of this event "Learn to let go".</p>
-    </div>
-    <div class="col-xs-6 col-sm-6 text-center"> 
-        <a href="news2.html"><img src="assets/images/1.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-        <p class="text-justify">Guidance, soul-searching, realizing your own shortcomings and your greatest potential with the help of the event “One with Buddha”.</p>    
-    </div>
+ <div class="content">  
+
+            
+        
+          <div class="col-md-12 contact">
+              
+              <div class="col-md-5"><img  src="assets/images/contact.jpg" alt="contact"/> </div> <!-- contact us image -->
+           
+            <!-- start of address and contacts -->
+              <div class="single-service col-md-3" >
+                
+            <h3>Address:</h3>
+            <p class="black-small-text">Chr M Østergaards Vej 4,</p>
+            <p class="black-small-text">8700 Horsens</p>
+            <p class="black-small-text">Fax: +45 222 8888</p>
+            <p class="black-small-text">Tel: +45 2222 3333</p>
+            <p class="black-small-text">Mail: info@via.dk</p>
+              </div> 
+            <div class="single-service col-md-4">
+            <h3>Working hours:</h3>
+            <p class="black-small-text">Monday: 7:00 - 16:00</p>
+            <p class="black-small-text">Tuesday: 6:00 - 16:00</p>
+            <p class="black-small-text">Wednesday: 8:00 - 16:00</p>
+            <p class="black-small-text">Thursday: 7:30 - 16:00</p>
+            <p class="black-small-text">Friday: 8:00 - 15:00</p>
+            <p class="black-small-text">Saturday/Sunday: Closed</p>
+             </div>
+            <!-- end of address and contacts -->
+              
+            <!-- start of openning houres -->     
+             
+            <!-- end of openning houres -->  
+          </div>
+            
+            <!-- start google map iframe -->
+            <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10648.784068588893!2d9.885123445611072!3d55.86906679218557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe95a7222c32ec1e8!2sVia!5e0!3m2!1sen!2sdk!4v1506290510496"  height="300" allowfullscreen  style="frameborder:0; border:0; width:100%;"></iframe>         
+          </div>
+           <!-- start google map iframe -->
+            
+      </div>
   </div>
 </div><br>
 
